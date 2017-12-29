@@ -1,0 +1,35 @@
+{
+  "name": "ya.music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikesilence/ya.music.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikesilence/ya.music/issues"
+  },
+  "homepage": "https://github.com/mikesilence/ya.music#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.5",
+    "node-loader": "^0.6.0",
+    "pty": "^0.0.0",
+    "term": "^0.0.2",
+    "tty.js": "^0.2.15",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
